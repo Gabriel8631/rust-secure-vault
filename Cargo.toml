@@ -1,0 +1,10 @@
+[package]
+name = "rust-secure-vault"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes-gcm = "0.10.3"
+argon2 = "0.5.2"
+secrecy = "0.8.0"
+rand = "0.8.5"
